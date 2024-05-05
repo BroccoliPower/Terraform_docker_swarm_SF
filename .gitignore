@@ -34,7 +34,10 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-#Ignore privates
+# Ignore privates
 id_rsa
 id_rsa.pub
 authorized_key.json
+
+# System files
+.DS_Store
