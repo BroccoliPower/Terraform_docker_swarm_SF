@@ -29,7 +29,7 @@ variable "ssh_credentials" {
     pub_key     = string
   })
   default = {
-    user        = "eskimo"
+    user        = "ubuntu"
     private_key = "./id_rsa"
     pub_key     = "./id_rsa.pub"
   }
